@@ -1,4 +1,4 @@
-package org.launchcode.java;
+package org.launchcode.java.studios.areaofacircle;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
