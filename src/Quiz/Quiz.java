@@ -9,11 +9,11 @@ public class Quiz {
    ArrayList<Question> questions = new ArrayList<Question>();
    ArrayList<String> answers = new ArrayList<String>();
 
-   private void GenerateQuestions(){
-       questions.add(new CheckBox("What are types of drinks", "Water, Milk, Beer", new ArrayList<String>(Arrays.asList("milk, beer, soda, lemonade"))));
-       questions.add(new TrueFalse("Is the sky blue?", "true", new ArrayList<String>(Arrays.asList())));
-       questions.add(new MultipleChoice("Which of these are orange?", "orange", new ArrayList<String>(Arrays.asList("orange, bagels, sandwhich"))))
-   }
+//   private void GenerateQuestions(){
+//       questions.add(new CheckBox("What are types of drinks", "Water, Milk, Beer", new ArrayList<String>(Arrays.asList("milk, beer, soda, lemonade"))));
+//       questions.add(new TrueFalse("Is the sky blue?", "true", new ArrayList<String>(Arrays.asList())));
+//       questions.add(new MultipleChoice("Which of these are orange?", "orange", new ArrayList<String>(Arrays.asList("orange, bagels, sandwhich"))));
+//   }
 
     private String GetUserInput (){
         return input.nextLine();
